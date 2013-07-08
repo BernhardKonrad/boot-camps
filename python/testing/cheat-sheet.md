@@ -17,7 +17,7 @@ Using an assertion to ensure input is acceptable:
 
     def some_function(x):
         assert x >= 0
-        # ... continue safe in knowledge that x > 0
+        # ... continue safe in knowledge that x is non-negative.
 
 Adding an explanatory message to the assertion:
 
